@@ -33,9 +33,10 @@ jobs:
       run: npm run build --if-present
 
     - name: Run tests
-    - name: Run tests
       run: npm test -- --passWithNoTests
       env:
         CI: true
+
+        
 
 
